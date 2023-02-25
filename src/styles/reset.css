@@ -1,0 +1,17 @@
+html {
+	font-size: 10px;
+}
+
+body {
+	font-size:        1.6rem;
+	background-color: #b1becb;
+}
+
+h1 {
+	margin:    0;
+	font-size: 2rem;
+}
+
+input {
+	min-width: 0;
+}

@@ -1,0 +1,210 @@
+body {
+  font-family: "Montserrat", "sans-serif";
+}
+
+.messenger {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.messenger__frame {
+  display: flex;
+  flex-direction: column;
+  border-radius: 0.5rem;
+  width: 50%;
+  max-width: 30rem;
+  height: 80%;
+  max-height: 54rem;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.messenger__header {
+  padding: 1.5rem 1rem;
+  text-align: center;
+  border-bottom: 2px solid #edf1f5;
+}
+
+.messenger__header__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.messenger_header__arrow-icon {
+  filter: invert(71%) sepia(98%) saturate(2788%) hue-rotate(167deg) brightness(94%) contrast(90%);
+}
+
+.messenger__header__body {
+  justify-content: center;
+  align-items: center;
+}
+
+.messenger__header__chat-name {
+  display: flex;
+  padding: 0rem 0rem 0.5rem 0rem;
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.messenger__header__people-online {
+  padding: 0.5rem 0rem 0rem 0rem;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.messenger__members {
+  padding: 1.5rem 1rem;
+  text-align: center;
+}
+
+.messenger__members__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.messenger__members__add-icon {
+  filter: invert(71%) sepia(98%) saturate(2788%) hue-rotate(167deg) brightness(94%) contrast(90%);
+}
+
+.messenger__members__user-img-0 {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  border: 2px solid #31ade4;
+  margin: 0rem 0.3rem;
+}
+.messenger__members__user-img-1 {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  border: 2px solid #dea43e;
+  margin: 0rem 0.3rem;
+}
+
+.messenger__members__user-img-2 {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  border: 2px solid #fc00ff;
+  margin: 0rem 0.3rem;
+}
+.messenger__members__user-img-3 {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  border: 2px solid #edf1f5;
+  margin: 0rem 0.3rem;
+}
+
+.messenger__message-list {
+  flex: 1 1 auto;
+  background-color: #edf1f5;
+  overflow-y: scroll;
+}
+
+.messenger__message-list__wrapper {
+  padding: 3rem 0 0 1.4rem;
+  display: flex;
+  flex-flow: row wrap;
+  align-content: flex-end;
+}
+
+.messenger__message-list__item {
+  margin-bottom: 3rem;
+  display: flex;
+  width: 100%;
+}
+
+.messenger__message__body-user-0 {
+  background-color: #31ade4;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin-right: 10px;
+  width: 100%;
+}
+
+.messenger__message__body-user-1 {
+  background-color: #dea43e;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin-right: 10px;
+  width: 100%;
+}
+
+.messenger__message__body-user-2 {
+  background-color: white;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin-right: 10px;
+  width: 100%;
+}
+
+.messenger__message-list__item__meta-info {
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #edf1f5;
+  padding-bottom: 10px;
+}
+
+.messenger__message-list__item__user-img-0 {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  border: 2px solid #31ade4;
+  margin: 0rem 2rem 0rem 0rem;
+}
+
+.messenger__message-list__item__user-img-1 {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  border: 2px solid #dea43e;
+  margin: 0rem 2rem 0rem 0rem;
+}
+
+.messenger__message-list__item__message {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #edf1f5;
+}
+
+.messenger__action-bar {
+  padding: 1rem;
+}
+
+.messenger__action-bar-wrapper {
+  display: flex;
+}
+
+.messenger__action-bar__input,
+.messenger__action-bar__input:focus {
+  flex: 1 1 auto;
+  margin-right: 1rem;
+  border-radius: 50px;
+  background-color: #edf1f5;
+  border: none;
+  height: 30px;
+  outline: none;
+  color: #565c62;
+  padding: 0rem 1rem;
+}
+
+.messenger__action-bar__smiley-icon {
+}
+
+.messenger__action-bar__btn {
+  background: transparent;
+  border: none;
+}
